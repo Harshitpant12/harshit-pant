@@ -1,2 +1,8 @@
 ## Portofolio
-A Portfolio about me.
+# Harshit Pant
+- Home
+- About
+- Skills
+- Projects
+- Education
+- Contacts

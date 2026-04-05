@@ -12,6 +12,12 @@
     />
     <meta name="author" content="Devcrud" />
     <title>Harshit Pant</title>
+    <script>
+      if (window.innerWidth >= 1000) {
+        alert("You are on a large screen! Redirecting you to my full 3D interactive portfolio for the best desktop experience.");
+        window.location.replace("https://harshitpant.vercel.app/");
+      }
+    </script>
     <!-- font icons -->
     <link
       rel="stylesheet"
@@ -461,10 +467,11 @@
         <p class="section-subtitle">Get in touch</p>
         <h6 class="section-title mb-5">Contact Me</h6>
         <!-- contact form -->
-        <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+        <form action="https://formspree.io/f/xaqllgel" class="contact-form col-md-10 col-lg-8 m-auto">
           <div class="form-row">
             <div class="form-group col-sm-6">
               <input
+                name="name"
                 type="text"
                 size="50"
                 class="form-control"
@@ -474,6 +481,7 @@
             </div>
             <div class="form-group col-sm-6">
               <input
+                name="email"
                 type="email"
                 class="form-control"
                 placeholder="Enter Email"
@@ -482,7 +490,7 @@
             </div>
             <div class="form-group col-sm-12">
               <textarea
-                name="comment"
+                name="message"
                 id="comment"
                 rows="6"
                 class="form-control"
